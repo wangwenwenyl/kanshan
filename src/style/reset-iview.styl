@@ -1,0 +1,99 @@
+@import './variable'
+
+/* 对话框 */
+.ivu-modal-content
+  border-radius 0 !important
+
+.ivu-btn-large  
+  border-radius 0 !important
+
+.ivu-btn-primary
+  background-color $color
+  border-color $color
+  &:hover
+    background-color $color
+    border-color $color
+
+.ivu-btn-primary.active, .ivu-btn-primary:active
+  background-color $color
+  border-color $color
+  outline 0
+
+.ivu-btn-text:hover
+  color $color   
+
+.ivu-page-item-jump-prev a, .ivu-page-item-jump-next a
+  color $color 
+
+/* 轮播图 */ 
+.ivu-carousel-dots-inside
+  bottom 10px
+
+.ivu-carousel-dots li button
+  width 50px
+  height 4px
+  background-color #ffffff
+  opacity .3 
+  
+.ivu-carousel-dots li.ivu-carousel-active>button
+  width 50px
+  background-color #ffffff
+
+/* 分页 */  
+.ivu-page-item
+  width 30px
+  min-height 30px
+  border-radius 50%
+  &:hover
+    border-color $color
+    color $color
+  &:hover a
+    color $color 
+
+.ivu-page-item a
+  &:hover
+    color $color
+
+.ivu-page-item-active
+  background-color $color
+  border-color $color
+
+.ivu-page-item-active
+  &:hover a
+    color #ffffff
+
+.ivu-page-next:hover, .ivu-page-prev:hover
+  border-color $color
+
+.ivu-page-next:hover a, .ivu-page-prev:hover a
+  color $color
+
+.ivu-page-disabled:hover a
+  color #ccc    
+
+.ivu-page-disabled:hover
+  border-color #dddee1
+
+/* 表单 */
+.ivu-radio-inner:after
+  background-color $color
+
+.ivu-radio-checked:hover .ivu-radio-inner, .ivu-radio-checked .ivu-radio-inner
+  border-color $color 
+
+.ivu-radio-focus
+  box-shadow none 
+
+.ivu-checkbox-checked .ivu-checkbox-inner
+  border-color $color
+  background-color $color
+
+.ivu-checkbox-checked:hover .ivu-checkbox-inner
+  border-color $color
+
+.ivu-checkbox-focus
+  box-shadow none  
+
+.ivu-input:hover, .ivu-input:focus
+  border-color $color
+  box-shadow none  
